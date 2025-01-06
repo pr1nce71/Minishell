@@ -6,11 +6,9 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/06 13:50:45 by yevkahar          #+#    #+#             */
-/*   Updated: 2025/01/06 13:50:46 by yevkahar         ###   ########.fr       */
+/*   Updated: 2025/01/06 14:32:40 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
 
 #ifndef MINISHELL_H
 # define MINISHELL_H

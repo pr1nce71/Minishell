@@ -6,11 +6,9 @@
 #    By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/06 13:50:26 by yevkahar          #+#    #+#              #
-#    Updated: 2025/01/06 13:50:27 by yevkahar         ###   ########.fr        #
+#    Updated: 2025/01/06 14:32:36 by yevkahar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
-
 
 NAME = minishell
 CC		=	gcc -g #-fsanitize=address
