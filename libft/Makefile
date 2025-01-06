@@ -6,7 +6,7 @@
 #    By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 16:01:33 by yevkahar          #+#    #+#              #
-#    Updated: 2024/11/29 15:10:26 by yevkahar         ###   ########.fr        #
+#    Updated: 2025/01/06 14:45:06 by yevkahar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,6 +23,7 @@ SRCS	=	ft_atoi.c \
 			ft_memchr.c \
 			ft_memcmp.c \
 			ft_strdup.c \
+			ft_strcat.c \
 			ft_isalnum.c \
 			ft_isalpha.c \
 			ft_isascii.c \

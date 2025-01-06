@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:35:44 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/12/02 14:24:00 by yevkahar         ###   ########.fr       */
+/*   Updated: 2025/01/06 14:44:46 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,9 +53,10 @@ t_list			*ft_lstlast(t_list *lst);
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size);
 char			*ft_itoa(int n);
 char			*ft_strdup(const char *s);
-char			*ft_strrchr(const char *s, int c);
 char			*ft_strchr(const char *s, int c);
+char			*ft_strrchr(const char *s, int c);
 char			**ft_split(char const *s, char c);
+char			*ft_strcat(char *dest, const char *src);
 char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char			*ft_strnstr(const char *big, const char *little, size_t len);
