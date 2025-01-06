@@ -6,11 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/06 13:43:35 by yevkahar          #+#    #+#             */
-/*   Updated: 2025/01/06 13:43:57 by yevkahar         ###   ########.fr       */
+/*   Updated: 2025/01/06 15:30:08 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
+
+int	ft_strcmp(const char *s1, const char *s2);
 
 int	is_builtin_command(char *command)
 {

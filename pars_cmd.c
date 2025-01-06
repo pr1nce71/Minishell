@@ -6,11 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/06 13:50:52 by yevkahar          #+#    #+#             */
-/*   Updated: 2025/01/06 14:32:43 by yevkahar         ###   ########.fr       */
+/*   Updated: 2025/01/06 15:31:57 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
+
+int	ft_strcmp(const char *s1, const char *s2);
 
 static int	easy_check(t_vars *list)
 {

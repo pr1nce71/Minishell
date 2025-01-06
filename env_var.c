@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/06 13:44:44 by yevkahar          #+#    #+#             */
-/*   Updated: 2025/01/06 13:44:45 by yevkahar         ###   ########.fr       */
+/*   Updated: 2025/01/06 15:22:32 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,27 @@
 #include <stdlib.h>
 #include <string.h>
 #include "minishell.h"
+
+size_t	ft_strlcpy(char *dest, const char *src, size_t dstsize)
+{
+	size_t	i;
+	size_t	src_len;
+
+	i = 0;
+	src_len = 0;
+	while (src[src_len] != '\0')
+		src_len++;
+	if (dstsize > 0)
+	{
+		while (i < dstsize - 1 && src[i] != '\0')
+		{
+			dest[i] = src[i];
+			i++;
+		}
+		dest[i] = '\0';
+	}
+	return (src_len);
+}
 
 char	*get_env_value(const char *name, t_env_path *env_shell)
 {

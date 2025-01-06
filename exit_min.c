@@ -6,11 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/06 13:45:36 by yevkahar          #+#    #+#             */
-/*   Updated: 2025/01/06 13:45:38 by yevkahar         ###   ########.fr       */
+/*   Updated: 2025/01/06 15:30:19 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
+
+int	ft_strcmp(const char *s1, const char *s2);
 
 void	start_shell(t_env_path *env_shell)
 {

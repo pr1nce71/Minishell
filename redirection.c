@@ -6,11 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/06 13:51:28 by yevkahar          #+#    #+#             */
-/*   Updated: 2025/01/06 14:32:55 by yevkahar         ###   ########.fr       */
+/*   Updated: 2025/01/06 15:32:12 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
+
+int	ft_strcmp(const char *s1, const char *s2);
 
 void	redirect_output(char *filename, int append)
 {

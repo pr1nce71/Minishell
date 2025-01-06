@@ -6,11 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/06 13:46:23 by yevkahar          #+#    #+#             */
-/*   Updated: 2025/01/06 13:46:26 by yevkahar         ###   ########.fr       */
+/*   Updated: 2025/01/06 15:30:29 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
+
+int	ft_strcmp(const char *s1, const char *s2);
 
 char	*get_cmd(char **path, char *cmd)
 {

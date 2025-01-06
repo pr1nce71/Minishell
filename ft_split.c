@@ -6,11 +6,11 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/21 12:09:28 by yevkahar          #+#    #+#             */
-/*   Updated: 2025/01/06 13:48:07 by yevkahar         ###   ########.fr       */
+/*   Updated: 2025/01/06 14:39:20 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "minishell.h"
 
 static size_t	count_words(const char *s, char c)
 {
